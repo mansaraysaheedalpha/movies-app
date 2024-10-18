@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <a href="{% url 'home' %}">My Fav</a>
+        <a href="{% url 'about' %}">About</a>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
